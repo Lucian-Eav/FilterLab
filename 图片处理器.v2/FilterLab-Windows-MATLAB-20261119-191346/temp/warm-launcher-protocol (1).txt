@@ -1,0 +1,6 @@
+Launcher protocol proposal
+MATLAB owns ready.flag and idle.flag. On close, remove ready.flag, then set idle.flag, wait up to 120 seconds only if warm.enabled exists. When reopen.request exists, delete reopen.request at acceptance, delete idle.flag, then build GUI and write ready.flag. Existing stage.txt/engine-pid.txt continue.
+Launcher writes warm.enabled only for eligible bare launches when user opt-in is true (persistent dataRoot/warm-reopen.txt, default absent=false). It creates reopen.request when an activation arrives in idle.
+To avoid expiry losing a click, duplicate launcher stays alive waiting for actual ready acknowledgement. Each duplicate has a request file in dataRoot/sessions/<instance-hash>/*.request. Owner acknowledges only after an actual studio window or rebuilt readiness. If old MATLAB exits before the duplicate is acknowledged, helper competes for the mutex and retries as a cold owner. This requires no MATLAB expiry handshake or fixed shutdown grace period. Parent should NOT treat an orderly idle exit with no ready.flag as a startup failure if it was previously ready.
+Please delete reopen.request BEFORE rebuilding and write ready.flag AFTER UI is usable. No extra MATLAB acknowledgement file needed.
+Temporary build will be temp/startup-qa/FilterLab.warm.exe. Production EXE stays untouched while its window is open.
