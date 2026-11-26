@@ -1,0 +1,304 @@
+{
+  "baseline": {
+    "Matlab": "25.2.0.3042426 (R2025b) Update 1",
+    "Platform": "PCWIN64",
+    "Mode": "baseline",
+    "Results": [
+      {
+        "Case": "photo-default",
+        "First_s": 0.2349679,
+        "Runs_s": [
+          0.1664305,
+          0.1483245,
+          0.1250498
+        ],
+        "Median_s": 0.1483245,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "photo-detail",
+        "First_s": 0.2490758,
+        "Runs_s": [
+          0.2769815,
+          0.2627614,
+          0.2152487
+        ],
+        "Median_s": 0.2627614,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "photo-brush",
+        "First_s": 0.1579092,
+        "Runs_s": [
+          0.1370086,
+          0.1497229,
+          0.1428669
+        ],
+        "Median_s": 0.1428669,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "six-questions",
+        "First_s": 0.084243,
+        "Runs_s": [
+          0.0383867,
+          0.0190477,
+          0.0126008
+        ],
+        "Median_s": 0.0190477,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "moire",
+        "First_s": 0.8986108,
+        "Runs_s": [
+          0.6077582,
+          0.6089068,
+          0.6252239
+        ],
+        "Median_s": 0.6089068,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "document",
+        "First_s": 0.3822124,
+        "Runs_s": [
+          0.3246839,
+          0.4051396,
+          0.4101904
+        ],
+        "Median_s": 0.4051396,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "motion-sweep",
+        "First_s": 0.6138074,
+        "Runs_s": [
+          0.4140523,
+          0.4004729,
+          0.3953218
+        ],
+        "Median_s": 0.4004729,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "allpass",
+        "First_s": 0.9804866,
+        "Runs_s": [
+          0.7744832,
+          0.9259488,
+          1.118769
+        ],
+        "Median_s": 0.9259488,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "burst",
+        "First_s": 0.1243461,
+        "Runs_s": [
+          0.0895154,
+          0.0855831,
+          0.0911464
+        ],
+        "Median_s": 0.0895154,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "sharpness",
+        "First_s": 0.0682709,
+        "Runs_s": [
+          0.0323217,
+          0.0298034,
+          0.0256777
+        ],
+        "Median_s": 0.0298034,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "watermark",
+        "First_s": 0.0434475,
+        "Runs_s": [
+          0.0264262,
+          0.0228381,
+          0.020752
+        ],
+        "Median_s": 0.0228381,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "starburst",
+        "First_s": 0.0948787,
+        "Runs_s": [
+          0.0499423,
+          0.0445556,
+          0.0417164
+        ],
+        "Median_s": 0.0445556,
+        "MaxAbs": 0,
+        "Pass": true
+      }
+    ]
+  },
+  "candidate": {
+    "Matlab": "25.2.0.3042426 (R2025b) Update 1",
+    "Platform": "PCWIN64",
+    "Mode": "candidate",
+    "Results": [
+      {
+        "Case": "photo-default",
+        "First_s": 0.9013526,
+        "Runs_s": [
+          0.0931017,
+          0.0951294,
+          0.0913121
+        ],
+        "Median_s": 0.0931017,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "photo-detail",
+        "First_s": 0.2129886,
+        "Runs_s": [
+          0.1678028,
+          0.1742187,
+          0.1803188
+        ],
+        "Median_s": 0.1742187,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "photo-brush",
+        "First_s": 0.1533127,
+        "Runs_s": [
+          0.1173634,
+          0.1143493,
+          0.1157733
+        ],
+        "Median_s": 0.1157733,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "six-questions",
+        "First_s": 0.1108743,
+        "Runs_s": [
+          0.0389588,
+          0.0184598,
+          0.0114799
+        ],
+        "Median_s": 0.0184598,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "moire",
+        "First_s": 0.6291844,
+        "Runs_s": [
+          0.3540926,
+          0.3246212,
+          0.3355551
+        ],
+        "Median_s": 0.3355551,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "document",
+        "First_s": 0.1641341,
+        "Runs_s": [
+          0.1039323,
+          0.1000559,
+          0.0972826
+        ],
+        "Median_s": 0.1000559,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "motion-sweep",
+        "First_s": 0.4851298,
+        "Runs_s": [
+          0.3410146,
+          0.3226975,
+          0.2986389
+        ],
+        "Median_s": 0.3226975,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "allpass",
+        "First_s": 0.8562053,
+        "Runs_s": [
+          0.7679149,
+          0.8012536,
+          0.7618447
+        ],
+        "Median_s": 0.7679149,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "burst",
+        "First_s": 0.0959269,
+        "Runs_s": [
+          0.0595826,
+          0.058479,
+          0.0529529
+        ],
+        "Median_s": 0.058479,
+        "MaxAbs": 3.3306690738754696e-16,
+        "Pass": true
+      },
+      {
+        "Case": "sharpness",
+        "First_s": 0.0731513,
+        "Runs_s": [
+          0.0235396,
+          0.0223826,
+          0.0193083
+        ],
+        "Median_s": 0.0223826,
+        "MaxAbs": 0,
+        "Pass": true
+      },
+      {
+        "Case": "watermark",
+        "First_s": 0.0399364,
+        "Runs_s": [
+          0.0251414,
+          0.0222818,
+          0.0227045
+        ],
+        "Median_s": 0.0227045,
+        "MaxAbs": 2.3814283878209608e-14,
+        "Pass": true
+      },
+      {
+        "Case": "starburst",
+        "First_s": 0.0728816,
+        "Runs_s": [
+          0.039459,
+          0.0449341,
+          0.0365657
+        ],
+        "Median_s": 0.039459,
+        "MaxAbs": 1.8726339923169633e-15,
+        "Pass": true
+      }
+    ]
+  }
+}
