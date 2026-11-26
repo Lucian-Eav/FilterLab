@@ -1,0 +1,150 @@
+{
+  "empty": {
+    "v2": [
+      28.218,
+      17.598,
+      15.691
+    ],
+    "v2.1": [
+      13.475,
+      12.08,
+      12.693
+    ]
+  },
+  "direct_photo": {
+    "image": "D:\\进阶信号与系统大作业\\Figures\\山脉.jpg",
+    "image_sha256": "a392b545faab4317c2d0fe4e5de972259296168d5df7e55ecf5a2158578b2bbf",
+    "image_bytes": 340551,
+    "exes_sha256": {
+      "v2": "12be2599dffc0619fd2c680d91134bbe17b80496031b132100b1853e05831727",
+      "v2.1": "584b3b7f309de10f0dd5e0c9f05ea188da9a9d3c261d18bec557eb2a6f7febe7"
+    },
+    "measurement": "Wall seconds from launching the real EXE until READY. Fresh engine per photo launch. OS caches retained.",
+    "poll_interval_s": 0.05,
+    "photo": [
+      {
+        "version": "v2",
+        "launcher_pid": 32404,
+        "log": "photo-launch-20261126-183616-2b8cb0\\v2\\userdata\\logs\\20261126-183616-fd0176",
+        "cold_ready_s": 18.3269,
+        "metrics": {},
+        "close_method": "close(fig) after READY inside this disposable copy",
+        "clean_exit": true,
+        "run": 1
+      },
+      {
+        "version": "v2.1",
+        "launcher_pid": 26384,
+        "log": "photo-launch-20261126-183616-2b8cb0\\v2.1\\userdata\\logs\\20261126-183652-63f161",
+        "cold_ready_s": 16.8871,
+        "metrics": {
+          "Route": "photo-preview",
+          "MatlabEntryToDrawSeconds": "10.552",
+          "ShellSeconds": "0.693",
+          "EditorBuildSeconds": "1.809",
+          "LastOpenSeconds": "2.249",
+          "DecodeSeconds": "0.104",
+          "PreviewComputeSeconds": "0.298"
+        },
+        "close_method": "close(fig) after READY inside this disposable copy",
+        "clean_exit": true,
+        "run": 1
+      },
+      {
+        "version": "v2.1",
+        "launcher_pid": 32592,
+        "log": "photo-launch-20261126-183616-2b8cb0\\v2.1\\userdata\\logs\\20261126-183727-fd151c",
+        "cold_ready_s": 15.7516,
+        "metrics": {
+          "Route": "photo-preview",
+          "MatlabEntryToDrawSeconds": "10.441",
+          "ShellSeconds": "0.659",
+          "EditorBuildSeconds": "1.815",
+          "LastOpenSeconds": "2.254",
+          "DecodeSeconds": "0.107",
+          "PreviewComputeSeconds": "0.299"
+        },
+        "close_method": "close(fig) after READY inside this disposable copy",
+        "clean_exit": true,
+        "run": 2
+      },
+      {
+        "version": "v2",
+        "launcher_pid": 24964,
+        "log": "photo-launch-20261126-183616-2b8cb0\\v2\\userdata\\logs\\20261126-183800-b8005c",
+        "cold_ready_s": 17.2739,
+        "metrics": {},
+        "close_method": "close(fig) after READY inside this disposable copy",
+        "clean_exit": true,
+        "run": 2
+      },
+      {
+        "version": "v2",
+        "launcher_pid": 17928,
+        "log": "photo-launch-20261126-183616-2b8cb0\\v2\\userdata\\logs\\20261126-183835-6dcf62",
+        "cold_ready_s": 17.1161,
+        "metrics": {},
+        "close_method": "close(fig) after READY inside this disposable copy",
+        "clean_exit": true,
+        "run": 3
+      },
+      {
+        "version": "v2.1",
+        "launcher_pid": 29116,
+        "log": "photo-launch-20261126-183616-2b8cb0\\v2.1\\userdata\\logs\\20261126-183909-6feb9d",
+        "cold_ready_s": 16.2077,
+        "metrics": {
+          "Route": "photo-preview",
+          "MatlabEntryToDrawSeconds": "10.189",
+          "ShellSeconds": "0.628",
+          "EditorBuildSeconds": "1.776",
+          "LastOpenSeconds": "2.213",
+          "DecodeSeconds": "0.107",
+          "PreviewComputeSeconds": "0.292"
+        },
+        "close_method": "close(fig) after READY inside this disposable copy",
+        "clean_exit": true,
+        "run": 3
+      }
+    ],
+    "warm": null,
+    "photo_medians_s": {
+      "v2": 17.2739,
+      "v2.1": 16.2077
+    },
+    "status": "pass"
+  },
+  "warm": {
+    "version": "v2.1",
+    "launcher_pid": 45704,
+    "log": "photo-launch-20261126-183024-2e83ad\\v2.1\\userdata\\logs\\20261126-183449-20d6c2",
+    "cold_ready_s": 12.3999,
+    "metrics": {
+      "Route": "open-dialog",
+      "MatlabEntryToDrawSeconds": "6.103",
+      "ShellSeconds": "0.670",
+      "EditorBuildSeconds": "NaN",
+      "LastOpenSeconds": "NaN",
+      "DecodeSeconds": "NaN",
+      "PreviewComputeSeconds": "NaN"
+    },
+    "close_method": "close(fig) after READY inside this disposable copy",
+    "warm_ready_s": 1.2653,
+    "warm_launcher_pid": 55180,
+    "engine_pid_before": 55252,
+    "engine_pid_after": 55252,
+    "warm_metrics": {
+      "Route": "open-dialog",
+      "MatlabEntryToDrawSeconds": "0.910",
+      "ShellSeconds": "0.201",
+      "EditorBuildSeconds": "NaN",
+      "LastOpenSeconds": "NaN",
+      "DecodeSeconds": "NaN",
+      "PreviewComputeSeconds": "NaN"
+    },
+    "reopened_studio": {
+      "close_method": "close(fig) after READY inside this disposable copy"
+    },
+    "clean_exit": true
+  }
+}
