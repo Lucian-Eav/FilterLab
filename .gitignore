@@ -29,3 +29,9 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# 测试/基准脚本与结果文件不进仓库（只在本地分发包内保留）
+图片处理器.*/deploy/check_*.m
+图片处理器.*/deploy/bench_*.m
+图片处理器.*/deploy/measure_launch.py
+图片处理器.*/deploy/*-results.json
