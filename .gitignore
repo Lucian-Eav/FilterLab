@@ -35,3 +35,8 @@ venv/
 图片处理器.*/deploy/bench_*.m
 图片处理器.*/deploy/measure_launch.py
 图片处理器.*/deploy/*-results.json
+
+# v3.0 的构建产物与验收脚本不进仓库
+图片处理器.*/dist/
+图片处理器.*/deploy/runtime_check.ps1
+图片处理器.*/deploy/用户验收.cmd
